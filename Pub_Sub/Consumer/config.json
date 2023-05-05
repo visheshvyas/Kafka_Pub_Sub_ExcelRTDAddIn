@@ -1,0 +1,8 @@
+{
+  "kafka_topic": "test-topic",
+  "BootstrapServers": "pkc-56d1g.eastus.azure.confluent.cloud:9092",
+  "SaslUsername": "QLO2HZOHKWZUOJMZ",
+  "SaslPassword": "tZMDI+TDftVINswqxivEG4ouBVOgRTamHTaUqvsMcyjYIAW6t+5c2Q4IXpBo3Zv8",
+  "InsertQuery": "INSERT Into KeyTimePrice ([Key], [Time], [Value]) VALUES ('{0}','{1}',{2})",
+  "SqlConnString": "Data Source=DESKTOP-6NVBPH2\\SQLEXPRESS;Initial Catalog=HPData;Integrated Security=True"
+}

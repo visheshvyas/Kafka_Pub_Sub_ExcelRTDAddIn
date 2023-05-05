@@ -1,0 +1,7 @@
+{
+  "kafka_topic": "test-topic",
+  "BootstrapServers": "pkc-56d1g.eastus.azure.confluent.cloud:9092",
+  "SaslUsername": "QLO2HZOHKWZUOJMZ",
+  "SaslPassword": "tZMDI+TDftVINswqxivEG4ouBVOgRTamHTaUqvsMcyjYIAW6t+5c2Q4IXpBo3Zv8",
+  "maxKeyId": "3"
+}

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HPCommon", "HPCommon\HPCommon.csproj", "{CA272A24-36B0-4234-9432-A5FC2D484934}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Publisher", "Publisher\Publisher.csproj", "{D49E5A50-D3C7-4516-8940-C942314FE45A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer", "Consumer\Consumer.csproj", "{8FC87DC5-1031-455C-9D72-D1B92845BD8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA272A24-36B0-4234-9432-A5FC2D484934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA272A24-36B0-4234-9432-A5FC2D484934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA272A24-36B0-4234-9432-A5FC2D484934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA272A24-36B0-4234-9432-A5FC2D484934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D49E5A50-D3C7-4516-8940-C942314FE45A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49E5A50-D3C7-4516-8940-C942314FE45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49E5A50-D3C7-4516-8940-C942314FE45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49E5A50-D3C7-4516-8940-C942314FE45A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC87DC5-1031-455C-9D72-D1B92845BD8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC87DC5-1031-455C-9D72-D1B92845BD8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC87DC5-1031-455C-9D72-D1B92845BD8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC87DC5-1031-455C-9D72-D1B92845BD8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9044F07-247C-477B-8A2B-D10E0A57A6D7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,30 @@
+input data:
+
+
+{key:"k1", value:{"time":t1, "value":0.15}}
+{key:"k1", value:{"time":t2, "value":0.134}}
+{key:"k1", value:{"time":t3, "value":0.13}}
+{key:"k1", value:{"time":t4, "value":0.1464}}
+{key:"k2", value:{"time":t1, "value":0.134}}
+{key:"k2", value:{"time":t2, "value":0.123}}
+{key:"k2", value:{"time":t3, "value":0.12366}}
+{key:"k2", value:{"time":t4, "value":0.1766}}
+{key:"k1", value:{"time":t5, "value":0.12}}
+{key:"k2", value:{"time":t5, "value":0.124}}
+{key:"k1", value:{"time":t6, "value":0.157}}
+
+
+Step1 : write a c# program that generates like above data and publish to kafka topic time is increasing order date time, value is float number between 0 and 1
+use random generator generating 2 message in a second
+
+Step2 : write c# program that connects to kafka topic and listen to the data produced above and write to sql server data base table in below format
+
+table columns: key, time , value
+
+step3: write a excel plugin with RTD that listen of above topic and update excel data showing only latest value by key, so there should only be number of rows as many distinct key
+and value correspond to lastest time by each key
+
+Also when excel closes and start again it should show latest data thats there in kafka not empty
+
+
+

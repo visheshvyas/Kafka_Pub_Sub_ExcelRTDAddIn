@@ -1,0 +1,5 @@
+C:\Kafka\test\HPCommon\obj\Debug\netcoreapp3.1\HPCommon.csproj.AssemblyReference.cache
+C:\Kafka\test\HPCommon\obj\Debug\netcoreapp3.1\HPCommon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kafka\test\HPCommon\obj\Debug\netcoreapp3.1\HPCommon.AssemblyInfoInputs.cache
+C:\Kafka\test\HPCommon\obj\Debug\netcoreapp3.1\HPCommon.AssemblyInfo.cs
+C:\Kafka\test\HPCommon\obj\Debug\netcoreapp3.1\HPCommon.csproj.CoreCompileInputs.cache
